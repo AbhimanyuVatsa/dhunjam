@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #030303;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'],
+  input[type='password'] {  
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #030303;
+    color: #ffffff;
+  }
+  
+  input[type='text']:disabled,
+  input[type='password']:disabled {
+    border-color: #c2c2c2;
+    background-color: #c2c2c2;
+    color: #c2c2c2;
+  }
+  
+  #loginButton {
+    width: calc(100% + 25px);
+    padding: 12px;
+    margin: 10px;
+    background-color: #6741d9;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+  
+  #loginButton:hover,
+  #loginButton:active {
+    border-color: #f0c3f1;
+  }
+  
+  #newRegistrationButton {
+    padding: 0;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  #newRegistrationButton:hover,
+  #newRegistrationButton:active {
+    color: #7fc7ff;
+  }
+  
+  .password-input-container {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+  }
+  
+  
+  .password-toggle-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+  }
